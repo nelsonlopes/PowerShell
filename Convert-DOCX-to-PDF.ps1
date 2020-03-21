@@ -1,4 +1,6 @@
-﻿$documents_path = 'C:\Users\nelopes\Desktop\test1'
+﻿# Reference: https://stackoverflow.com/questions/16534292/basic-powershell-batch-convert-word-docx-to-pdf
+
+$documents_path = 'C:\Users\nelopes\Desktop\test1'
 
 $word_app = New-Object -ComObject Word.Application
 
